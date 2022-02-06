@@ -9,6 +9,6 @@ public class ApiController {
 @GetMapping("/welcome")
 public String messgae() {
 	System.out.println("*********************************");
-	return "Welcome";
+	return "Changed";
 }
 }
